@@ -135,7 +135,7 @@ banner
 echo -e "\e[31mPLEASE ENTER ACCESS KEY IF YOU DON'T HAVE ACCESS KEY THEN GO TO MAIN MENU AND CHOOSE OPTION 2 FOR ACCESS KEY" | pv -qL 50
 echo -e "\e[93m"
 read  -p "ACCESS KEY: " access
-cd $HOME/fisher/off
+cd $HOME/Pichack/off
 bas=$(cat pic.txt)
 if [[ $access = $bas ]];
 then
